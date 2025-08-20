@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+#results {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+#score {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#winner {
+  margin-top: 20px;
+  font-size: 22px;
+  color: green;
+  font-weight: bold;
+}
